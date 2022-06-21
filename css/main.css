@@ -162,7 +162,7 @@ header nav .container .more .list-btn div:nth-of-type(2) {
 header nav .container .more .list-btn div:nth-of-type(3) {
   bottom: 0;
 }
-header main .container {
+header .main .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -171,27 +171,27 @@ header main .container {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-header main .container .right img {
+header .main .container .right img {
   width: min(100%, 360px);
   display: block;
   margin: auto;
 }
-header main .container .left {
+header .main .container .left {
   text-align: center;
   padding: 1.5rem 1.5rem 30% 1.5rem;
 }
-header main .container .left h1 {
+header .main .container .left h1 {
   font-size: min(10vw, 2.5rem);
   margin-bottom: 0.5rem;
   color: #283255;
 }
-header main .container .left p {
+header .main .container .left p {
   font-size: min(5vw, 1rem);
   color: #9095a7;
   line-height: 1.7;
   margin-bottom: 1rem;
 }
-header main .container .left button {
+header .main .container .left button {
   color: #fff;
   font-weight: 500;
   padding: min(8%, 1rem) min(13%, 2.5rem);
@@ -217,7 +217,7 @@ header main .container .left button {
   border-radius: 3rem;
   cursor: pointer;
 }
-header main .container .left button:hover {
+header .main .container .left button:hover {
   background-color: #f98f75;
 }
 
@@ -612,28 +612,28 @@ footer .container .copy-rights > span i {
   header nav .container {
     width: 550px;
   }
-  header main .container {
+  header .main .container {
     width: 550px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
   }
-  header main .container > div {
+  header .main .container > div {
     width: 50%;
   }
-  header main .container > div.left {
+  header .main .container > div.left {
     text-align: left;
     padding-bottom: 0;
   }
-  header main .container > div.left h1 {
+  header .main .container > div.left h1 {
     font-size: 1.8rem;
   }
-  header main .container > div.left button {
+  header .main .container > div.left button {
     margin: 0;
     padding: 1rem 1.5rem;
   }
-  header main .container > div.right {
+  header .main .container > div.right {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -641,7 +641,7 @@ footer .container .copy-rights > span i {
         -ms-flex-align: start;
             align-items: start;
   }
-  header main .container > div.right img {
+  header .main .container > div.right img {
     width: 100%;
   }
 
@@ -856,10 +856,10 @@ footer .container .copy-rights > span i {
   header nav .container .more .list-btn {
     display: none;
   }
-  header main .container {
+  header .main .container {
     width: 750px;
   }
-  header main .container > div.left h1 {
+  header .main .container > div.left h1 {
     font-size: 2.5rem;
   }
 
@@ -958,16 +958,16 @@ footer .container .copy-rights > span i {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
-  header main .container {
+  header .main .container {
     width: 950px;
   }
-  header main .container > div.left h1 {
+  header .main .container > div.left h1 {
     font-size: 3rem;
   }
-  header main .container > div.left p {
+  header .main .container > div.left p {
     max-width: 350px;
   }
-  header main .container > div.left button {
+  header .main .container > div.left button {
     padding: 1rem 2rem;
   }
 
@@ -1108,17 +1108,17 @@ footer .container .copy-rights > span i {
   header nav .container {
     width: 1150px;
   }
-  header main .container {
+  header .main .container {
     width: 1150px;
   }
-  header main .container > div.left h1 {
+  header .main .container > div.left h1 {
     font-size: 3.5rem;
     max-width: 450px;
   }
-  header main .container > div.left p {
+  header .main .container > div.left p {
     max-width: 350px;
   }
-  header main .container > div.left button {
+  header .main .container > div.left button {
     padding: 1rem 2rem;
   }
 
@@ -1158,7 +1158,7 @@ footer .container .copy-rights > span i {
   header nav .container {
     width: 1400px;
   }
-  header main .container {
+  header .main .container {
     width: 1400px;
   }
 
