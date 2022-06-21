@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Managey</title>
+  <!-- Tab icon -->
+  <link rel="icon" href="./images/tab-logo.webp">
+  <!-- En Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a85ef4a7c1.js" crossorigin="anonymous"></script>
+  <!-- Main style -->
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  <header>
+    <div class="watermark"></div>
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="Manage">
+        </div>
+        <div class="list" id="list">
+          <ul>
+            <li>Pricing</li>
+            <li>Product</li>
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Community</li>
+          </ul>
+        </div>
+        <div class="more">
+          <div class="get-started">
+            <button>Get Started</button>
+          </div>
+          <div class="list-btn" id="list-btn">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container">
+        <div class="right">
+          <img src="./images/illustration-intro.svg" alt="">
+        </div>
+        <div class="left">
+          <h1>Bring everyone together to build better products.</h1>
+          <p>
+            Manage makes it simple for software teams to plan day-to-day
+            tasks while keeping the larger team goals in view.
+          </p>
+          <button>Get Started</button>
+        </div>
+      </div>
+    </main>
+  </header>
+  <section class="difference">
+    <div class="watermark"></div>
+    <div class="container">
+      <div class="left">
+        <h2>What’s different </br> about Manage?</h2>
+        <p>
+          Manage provides all the functionality your team needs, without
+          the complexity. Our software is tailor-made for modern digital
+          product teams.
+        </p>
+      </div>
+      <div class="right">
+        <div class="first">
+          <div class="heading">
+            <span class="number">01</span>
+            <span class="title">Track company-wide progress</span>
+          </div>
+          <p>
+            See how your day-to-day tasks fit into the wider vision. Go from
+            tracking progress at the milestone level all the way done to the
+            smallest of details. Never lose sight of the bigger picture again.
+          </p>
+        </div>
+        <div class="second">
+          <div class="heading">
+            <span class="number">02</span>
+            <span class="title">Advanced built-in reports</span>
+          </div>
+          <p>
+            Set internal delivery estimates and track progress toward company
+            goals. Our customisable dashboard helps you build out the reports
+            you need to keep key stakeholders informed.
+          </p>
+        </div>
+        <div class="third">
+          <div class="heading">
+            <span class="number">03</span>
+            <span class="title">Everything you need in one place</span>
+          </div>
+          <p>
+            Stop jumping from one service to another to communicate, store files,
+            track tasks and share documents. Manage offers an all-in-one team
+            productivity solution.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="feedbacks">
+    <div class="container">
+      <h2>What they’ve said</h2>
+      <div class="slider" id="slider">
+        <div class="control left"><i class="fas fas fa-chevron-left fa-2xl"></i></div>
+        <div class="control right"><i class="fas fas fa-chevron-right fa-2xl"></i></div>
+        <div class="slit">
+          <div class="feedback active">
+            <div class="avatar">
+              <img src="./images/avatar-ali.webp" alt="avatar-Ali">
+            </div>
+            <h3>Ali Bravo</h3>
+            <p>
+              “We have been able to cancel so many other subscriptions since using
+              Manage. There is no more cross-channel confusion and everyone is much
+              more focused.”
+            </p>
+          </div>
+          <div class="feedback">
+            <div class="avatar">
+              <img src="./images/avatar-anisha.webp" alt="avatar-anisha">
+            </div>
+            <h3>Anisha Li</h3>
+            <p>
+              “Manage has supercharged our team’s workflow. The ability to maintain
+              visibility on larger milestones at all times keeps everyone motivated.”
+            </p>
+          </div>
+          <div class="feedback">
+            <div class="avatar">
+              <img src="./images/avatar-richard.webp" alt="avatar-richard">
+            </div>
+            <h3>Richard Watts</h3>
+            <p>
+              “Manage allows us to provide structure and process. It keeps us organized
+              and focused. I can’t stop recommending them to everyone I talk to!”
+            </p>
+          </div>
+          <div class="feedback">
+            <div class="avatar">
+              <img src="./images/avatar-shanai.webp" alt="avatar-shanai">
+            </div>
+            <h3>Shanai Gough</h3>
+            <p>
+              “Their software allows us to track, manage and collaborate on our projects
+              from anywhere. It keeps the whole team in-sync without being intrusive.”
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="bullets" id="bullets">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <button>Get Started</button>
+    </div>
+  </section>
+  <section class="simplify">
+    <div class="container">
+      <h2>Simplify how your team works today.</h2>
+      <button>Get Started</button>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <form class="newsletter" novalidate>
+        <div class="inputField">
+          <span class="error hidden">please insert a valid email</span>
+          <input type="email" placeholder="Updates in your inbox…">
+        </div>
+        <input type="submit" value="Go">
+      </form>
+      <div class="sections">
+        <ul>
+          <li>Home</li>
+          <li>Pricing</li>
+          <li>Products</li>
+          <li>About Us</li>
+        </ul>
+        <ul>
+          <li>Careers</li>
+          <li>Community</li>
+          <li>Privacy Policy</li>
+        </ul>
+      </div>
+      <div class="social-logo">
+        <div class="social-media">
+          <img src="./images/icon-facebook.svg" alt="Facebook">
+          <img src="./images/icon-youtube.svg" alt="Youtube">
+          <img src="./images/icon-twitter.svg" alt="Twitter">
+          <img src="./images/icon-pinterest.svg" alt="Pinterest">
+          <img src="./images/icon-instagram.svg" alt="Instagram">
+        </div>
+        <div class="logo">
+          <img src="./images/footer-logo.svg" alt="Logo">
+        </div>
+      </div>
+      <div class="copy-rights">
+        <span>Copyright 2020. All Rights Reserved</span>
+        <span>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+            Mentor</a>.</span>
+        <span>Coded with <i class="fas fas fa-heart"></i> by <a
+            href="https://abdulkerimawad.github.io/RNXCode/" target="_blank"><span>RNX</span>Code</a>.</span>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+
+*.sketch
+*.xd
+*.fig
+.DS_Store
+css/sections/
+css/main.scss
+css/main.css.map
+css/prepros.config
+design/
