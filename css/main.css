@@ -1170,22 +1170,6 @@ footer .container .copy-rights > span i {
     width: 1400px;
   }
 
-  .feedbacks .container {
-    width: 1400px;
-  }
-  .feedbacks .container .slider {
-    padding: 0 20px;
-  }
-  .feedbacks .container .slider .control.left {
-    left: 0;
-  }
-  .feedbacks .container .slider .control.right {
-    right: -1rem;
-  }
-  .feedbacks .container .slider .control i {
-    font-size: 3rem;
-  }
-
   .simplify .container {
     width: 1400px;
   }
