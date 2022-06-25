@@ -593,12 +593,12 @@ footer .container .copy-rights > span a {
   text-decoration: none;
 }
 footer .container .copy-rights > span a[href*=frontendmentor] {
-  color: #ed2c49;
+  color: inherit;
 }
-footer .container .copy-rights > span a[href*=RNXCode] {
+footer .container .copy-rights > span a[href*=rnxcode] {
   color: #FFF;
 }
-footer .container .copy-rights > span a[href*=RNXCode] span {
+footer .container .copy-rights > span a[href*=rnxcode] span {
   color: #76D300;
 }
 footer .container .copy-rights > span i {
